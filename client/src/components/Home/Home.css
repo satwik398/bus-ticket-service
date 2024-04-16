@@ -1,0 +1,87 @@
+.home{
+    margin-top: 120px;
+}
+.home-header{
+    background-color: #b93948;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    /* width: 80%; */
+    
+    display: flex;
+}
+.home-header > div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.home-header-icon{
+    flex: 30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-header-icon > img{
+    width: 250px;
+}
+.home-header-input{
+    flex: 70;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.tagline{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.home-input-container{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.home-input-container > div > input , .home-input-container > div > button{
+    font-size: 26px;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    outline: none;
+    width: auto;
+}
+.home-input-container > div > button{
+    background-color: #d74d54;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.home-input-container > div > button:hover{
+    cursor: pointer;
+}
+.home-input-container > div:first-child{
+    border-right: 1px solid grey;
+}
+
+.home-cities{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.home-cities > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+}
+.home-cities > div > img{
+    width: 100px;
+}

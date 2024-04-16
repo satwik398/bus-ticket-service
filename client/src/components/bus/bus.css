@@ -1,0 +1,108 @@
+.bus{
+    margin-top: 120px;
+}
+
+.bus-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    gap: 100px;
+}
+.bus-modal-image > img{
+    width: 600px;
+}
+.bus-modal-content{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    font-family: "Roboto", sans-serif;
+}
+.bus-modal-content > div{
+    display: flex;
+}
+.bus-modal-content > div > div{
+    flex: 1;
+}
+.bus-modal-content > div > div:first-child{
+    font-weight: 600;
+    font-size: 26px;
+    color: rgba(0, 0, 0, 0.756);
+}
+.bus-modal-content > div > div:last-child{
+    font-weight: 400;
+    font-size: 24px;
+}
+
+/* .add-ticket > div:first-child{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.add-ticket > div:last-child{
+    display: flex;
+    justify-content: center;
+}
+.add-ticket > div > button{
+    height: 50px;
+    width: 50px;
+    background-color: #b93948;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+}
+.add-ticket > div:last-child > button{
+    width: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px black;
+}
+*/
+
+.add-ticket{
+    display: flex;
+    gap: 10px;
+}
+.add-buttons{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.buy-button{
+    display: flex;
+    align-items: center;
+}
+.add-buttons > button{
+    height: 50px;
+    width: 50px;
+    background-color: #b93948;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    font-size: 26px;
+}
+.buy-button > button{
+    height: 50px;
+    width: auto;
+    background-color: #b93948;
+    color: white;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+button:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 0px black;
+}

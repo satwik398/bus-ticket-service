@@ -1,0 +1,79 @@
+.nav-main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 3px 10px grey;
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+}
+.nav-item-container{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.nav-icon-container{
+    flex:20;
+    display: flex;
+    flex-direction: column;
+    /* gap: 5px; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.nav-icon-container > img{
+    width: 80px;
+}
+.nav-icon-container > img:hover{
+    cursor: pointer;
+}
+.nav-content-container{
+    flex: 80;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bus-ticket{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nav-bus-ticket > div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+.nav-bus-ticket > div > img{
+    width: 35px;
+}
+.nav-bus-ticket > div > div{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-profile{
+    display: flex;
+    align-items: center;
+}
+
+.nav-profile > div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.nav-profile > div:hover{
+    cursor: pointer;
+}
+.nav-profile > div > img{
+    width: 50px;
+}
+.nav-profile > div > div{
+    font-size: 20px;
+    font-weight: 600;
+}

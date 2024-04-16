@@ -1,0 +1,28 @@
+.addbus{
+    margin-top: 200px;
+}
+.bus-modal-content-right > input{
+    outline: none;
+    font-size: 24px;
+}
+.bus-modal-image > div{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    border-radius: 20px;
+}
+.bus-modal-image > div:hover{
+    cursor: pointer;
+    background-color: rgb(224, 250, 255);
+    transition: 1s;
+}
+.bus-modal-image > div > img{
+    width: 100px;
+}

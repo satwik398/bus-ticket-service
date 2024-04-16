@@ -1,0 +1,151 @@
+.bus-menu{
+    margin-top: 120px;
+}
+.bus-header{
+    background-color: #b93948;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+}
+.bus-header > div{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+.bus-header-icon{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bus-header-icon > img{
+    width: 250px;
+}
+.bus-header-input{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+.bus-tagline{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+.bus-input-container{
+    display: flex;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.bus-input-container > div > input , .bus-input-container > div > button{
+    font-size: 26px;
+    border: none;
+    padding: 20px 10px 20px 10px;
+    outline: none;
+    width: auto;
+}
+.bus-input-container > div > button{
+    background-color: #d74d54;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bus-input-container > div > button:hover{
+    cursor: pointer;
+}
+.bus-input-container > div:first-child{
+    border-right: 1px solid grey;
+}
+
+
+.bus-list{
+    width: 70%;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding-bottom: 40px;
+}
+.bus-item{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    border: 2px solid black;
+    border-radius: 20px;
+    overflow: hidden;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.bus-item:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 5px 1px black;
+}
+.bus-item-image{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    margin-left: 40px;
+}
+.bus-item-image > img{
+    width: 150px;
+}
+.bus-item-content{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+.bus-item-src-dest, .bus-item-time{
+    display: flex;
+    align-items: center;
+}
+.bus-item-src-dest > div , .bus-item-time > div{
+    /* flex: 2; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bus-item-src-dest > div > img, .bus-item-time > div > img{
+    width: 30px;
+}
+.bus-item-name{
+    font-size: 26px;
+    font-weight: 600;
+    font-family: "Roboto", sans-serif;
+}
+.bus-item-src-dest{
+    font-size: 28px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+.bus-item-time{
+    font-size: 24px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+    color: rgb(53, 53, 53);
+}
+.flex1{
+    flex: 10;
+}
+.flex2{
+    flex: 1;
+}
+
+.bus-item-price{
+    font-size: 26px;
+    font-weight: 400;
+    font-family: "Roboto", sans-serif;
+}
+.bus-item-price > span{
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.788);
+}
