@@ -1,4 +1,4 @@
-import "./App.css"
+import "client/src/App.css"
 
 import { Routes,Route, useLocation } from "react-router-dom";
 
